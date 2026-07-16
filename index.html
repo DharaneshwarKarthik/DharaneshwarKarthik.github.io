@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharaneshwar K | AI & Machine Learning Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Dharaneshwar K, an AI & Machine Learning Engineer specializing in deep learning, anomaly detection, transformers, and computer vision. M.Tech in AI Engineering.">
+    <meta name="keywords" content="Machine Learning Engineer, Artificial Intelligence, Deep Learning, Transformers, Computer Vision, Portfolio, Resume, M.Tech AI, B.Tech AI">
+    <meta name="author" content="Dharaneshwar K">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/DharaneshwarKarthik">
+    <meta property="og:title" content="Dharaneshwar K | AI & ML Engineer">
+    <meta property="og:description" content="AI & Machine Learning Engineer portfolio highlighting Research Internship at NIT Trichy, peer-reviewed publications, and advanced AI projects.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Dharaneshwar K | AI & ML Engineer">
+    <meta property="twitter:description" content="AI & Machine Learning Engineer portfolio highlighting Research Internship at NIT Trichy, peer-reviewed publications, and advanced AI projects.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Gradients & Ambient Glows -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="grid-overlay"></div>
+    <canvas id="particle-canvas" class="particle-bg"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo-text" id="nav-logo">
+                <span class="logo-accent">&lt;</span>Dharaneshwar<span class="logo-accent">.K /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link active" id="link-about">About</a>
+                <a href="#experience" class="nav-link" id="link-experience">Experience</a>
+                <a href="#publications" class="nav-link" id="link-publications">Publications</a>
+                <a href="#projects" class="nav-link" id="link-projects">Projects</a>
+                <a href="#playground" class="nav-link" id="link-playground">Playground</a>
+                <a href="#skills" class="nav-link" id="link-skills">Skills</a>
+                <a href="#education" class="nav-link" id="link-education">Education</a>
+                <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="resume.pdf" target="_blank" class="btn btn-secondary btn-sm" id="btn-print" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                    Resume PDF
+                </a>
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="content-wrapper">
+        
+        <!-- Hero & Terminal Section -->
+        <section id="about" class="hero-section">
+            <div class="hero-content">
+                <div class="badge-container">
+                    <span class="profile-badge">Targeting FAANG & Top Tier Labs</span>
+                </div>
+                <h1 class="hero-title">
+                    Architecting the Future with <span class="gradient-text">AI & Machine Learning</span>
+                </h1>
+                <p class="hero-subtitle">
+                    M.Tech in Artificial Intelligence Engineering candidate with an established track record in time-series anomaly detection, survival analysis, and transformer-based architectures. Passionate about solving complex, high-scale algorithmic challenges.
+                </p>
+                <div class="hero-social-links">
+                    <a href="https://github.com/DharaneshwarKarthik" target="_blank" rel="noopener" class="social-icon-btn" id="social-github" title="GitHub Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dharaneshwar-karthik-514305253/" target="_blank" rel="noopener" class="social-icon-btn" id="social-linkedin" title="LinkedIn Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9" rx="1"/><circle cx="4" cy="4" r="2"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:dharaneshwar.pchi@gmail.com" class="social-icon-btn" id="social-email" title="Send Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <span>Email</span>
+                    </a>
+                    <a href="tel:+917092274118" class="social-icon-btn" id="social-phone" title="Call Me">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>Call</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Terminal Simulator Console Widget -->
+            <div class="terminal-widget" id="interactive-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn-dot close-dot"></span>
+                        <span class="btn-dot minimize-dot"></span>
+                        <span class="btn-dot expand-dot"></span>
+                    </div>
+                    <div class="terminal-title">dharanesh@portfolio:~</div>
+                    <div class="terminal-indicator">● LIVE CONSOLE</div>
+                </div>
+                <div class="terminal-body" id="terminal-screen">
+                    <div class="terminal-line text-comment"># Welcome to Dharaneshwar's Interactive Developer Terminal.</div>
+                    <div class="terminal-line text-comment"># Type 'help' to view all available commands.</div>
+                    <div class="terminal-line"><span class="text-prompt">dharanesh@portfolio:~$</span> <span class="typing-text">help</span></div>
+                    <div class="terminal-output" id="terminal-initial-help">
+                        <div class="command-help-grid">
+                            <span>about</span> <span>- Quick summary of background and career goals.</span>
+                            <span>skills</span> <span>- Display core AI, ML, & engineering competencies.</span>
+                            <span>experience</span> <span>- Inspect professional Research Internship.</span>
+                            <span>projects</span> <span>- View selected machine learning project specs.</span>
+                            <span>publications</span> <span>- Read details on peer-reviewed papers (IEEE / ICAAN).</span>
+                            <span>education</span> <span>- Display B.Tech & M.Tech academic records.</span>
+                            <span>clear</span> <span>- Clear the output logs.</span>
+                        </div>
+                    </div>
+                    <div class="terminal-line active-line">
+                        <span class="text-prompt">dharanesh@portfolio:~$</span>
+                        <span class="input-container"><input type="text" id="terminal-input" autocomplete="off" autofocus spellcheck="false"><span class="input-cursor"></span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="section-container scroll-fade">
+            <div class="section-header">
+                <span class="section-subtitle">Career Path</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="header-line"></div>
+            </div>
+            
+            <div class="timeline-wrapper">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header-card">
+                        <div class="timeline-title-group">
+                            <h3 class="timeline-role">Machine Learning Research Intern</h3>
+                            <h4 class="timeline-company">National Institute of Technology (NIT), Trichy</h4>
+                        </div>
+                        <div class="timeline-meta">
+                            <span class="timeline-date">Jun 2025 - Sept 2025</span>
+                            <span class="timeline-tag">Research</span>
+                        </div>
+                    </div>
+                    <div class="timeline-body-card">
+                        <p class="experience-desc">
+                            Conducted targeted research on advanced survival analysis and ensemble learning methodologies applied to workforce analytics under strict academic/faculty supervision at NIT Trichy.
+                        </p>
+                        <ul class="experience-bullets">
+                            <li>Designed and implemented an end-to-end predictive machine learning pipeline using <strong>Python</strong>, incorporating advanced data preprocessing, feature engineering, and statistical modeling.</li>
+                            <li>Applied <strong>Canonical Correlation Analysis (CCA)</strong> for dimensionality reduction and utilized <strong>SMOTE</strong> for class balancing to handle highly skewed IBM HR Analytics datasets.</li>
+                            <li>Built and evaluated robust models incorporating <strong>Random Survival Forest (RSF)</strong>, <strong>Cox Proportional Hazards (CoxPH)</strong>, and <strong>XGBoost</strong> to achieve state-of-the-art accuracy in predicting employee attrition patterns.</li>
+                        </ul>
+                        <div class="tech-tag-container">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Survival Analysis</span>
+                            <span class="tech-tag">CCA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section-container scroll-fade">
+            <div class="section-header">
+                <span class="section-subtitle">Academic Contributions</span>
+                <h2 class="section-title">Research Publications</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="publications-grid">
+                <!-- Publication 1 -->
+                <article class="publication-card">
+                    <div class="pub-badge">IEEE Published</div>
+                    <h3 class="pub-title">
+                        Hybrid Survival Ensemble Model for Employee Attrition Prediction
+                    </h3>
+                    <p class="pub-venue">
+                        Published in the <strong>2026 IEEE International Conference on Innovative Trends in Information Technology (ICITIIT)</strong>, IIIT Kottayam
+                    </p>
+                    <p class="pub-abstract">
+                        This paper proposes an advanced predictive framework combining Cox Proportional Hazards and Random Survival Forests with gradient boosting techniques. By integrating Canonical Correlation Analysis (CCA) and SMOTE, the methodology successfully handles multi-collinear and unbalanced industrial workforce data, outperforming standard classification networks in long-term attrition forecasting.
+                    </p>
+                    <div class="pub-meta">
+                        <span class="pub-doi"><strong>DOI:</strong> 10.1109/ICITIIT68860.2026.11499599</span>
+                        <a href="https://doi.org/10.1109/ICITIIT68860.2026.11499599" target="_blank" rel="noopener" class="btn btn-primary btn-xs" id="pub-link-1">
+                            <span>View Paper</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Publication 2 -->
+                <article class="publication-card">
+                    <div class="pub-badge sec-badge">ICAAN Abstract</div>
+                    <h3 class="pub-title">
+                        Markerless Autonomous UAV Landing Using Vision Transformers for Risk-Aware Terrain Segmentation
+                    </h3>
+                    <p class="pub-venue">
+                        Abstract published in the <strong>ICAAN Conference Proceedings (2026)</strong>
+                    </p>
+                    <p class="pub-abstract">
+                        Presents a novel risk-aware terrain semantic segmentation pipeline for unmanned aerial vehicles (UAVs). Utilizing a lightweight Vision Transformer (ViT) backbone, the system classifies landing environments in real-time, enabling safe autonomous descent without relying on markers. The approach demonstrates superior robustness under varying lighting and extreme terrain changes.
+                    </p>
+                    <div class="pub-meta">
+                        <span class="pub-doi">Status: Abstract Published</span>
+                        <span class="badge badge-outline">ViT Research</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Selected Projects Section -->
+        <section id="projects" class="section-container scroll-fade">
+            <div class="section-header">
+                <span class="section-subtitle">Engineering Portfolios</span>
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="header-line"></div>
+                
+                <!-- Category Filter Tabs -->
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all" id="tab-all">All Systems</button>
+                    <button class="filter-tab" data-filter="ml" id="tab-ml">Machine Learning / Time-Series</button>
+                    <button class="filter-tab" data-filter="cv" id="tab-cv">Computer Vision / DL</button>
+                </div>
+            </div>
+
+            <div class="projects-grid" id="projects-container">
+                <!-- Flagship Project 1 (ML) -->
+                <div class="project-card animate-card" data-category="ml">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <span class="project-badge flagship">Flagship Project</span>
+                        <span class="project-date">2026</span>
+                    </div>
+                    <h3 class="project-title">Hybrid Survival Ensemble Model for Employee Attrition Prediction</h3>
+                    <p class="project-desc">
+                        Developed a hybrid survival ensemble model integrating Random Survival Forest (RSF), Cox Proportional Hazards (CoxPH), XGBoost, Canonical Correlation Analysis (CCA), and SMOTE for employee attrition prediction using the IBM HR Analytics dataset.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <span class="hl-value">RSF</span>
+                            <span class="hl-label">Survival Forest</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="hl-value">SMOTE</span>
+                            <span class="hl-label">Class Balancing</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="hl-value">CoxPH</span>
+                            <span class="hl-label">Regression</span>
+                        </div>
+                    </div>
+                    <div class="project-details-list">
+                        <span>• Integrates Random Survival Forest, CoxPH, and XGBoost under a unified ensemble system.</span>
+                        <span>• Avoids data distortion by establishing rigorous collinear feature checks using CCA.</span>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-tag-container">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-survival</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                        <a href="https://github.com/DharaneshwarKarthik/employee-attrition-interface" target="_blank" rel="noopener" class="project-git-btn" id="link-proj-attrition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                            <span>Repository</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Flagship Project 2 (ML / Time-Series) -->
+                <div class="project-card animate-card" data-category="ml">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <span class="project-badge flagship">Flagship Project</span>
+                        <span class="project-date">2026</span>
+                    </div>
+                    <h3 class="project-title">Satellite Telemetry Anomaly Detection using TranAD</h3>
+                    <p class="project-desc">
+                        Built a robust, end-to-end unsupervised anomaly detection pipeline for the European Space Agency (ESA) GOCE satellite telemetry. Leveraging the TranAD transformer-based framework, it accurately isolates abnormal telemetry markers in multivariate data.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <span class="hl-value">103-Dim</span>
+                            <span class="hl-label">Multivariate Space</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="hl-value">POT</span>
+                            <span class="hl-label">Extreme Thresholding</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="hl-value">TranAD</span>
+                            <span class="hl-label">Attention Model</span>
+                        </div>
+                    </div>
+                    <div class="project-details-list">
+                        <span>• Managed temporal alignment and sensor filtering for high-dimensional data streams.</span>
+                        <span>• Implemented Peak-Over-Threshold (POT) algorithm for self-adjusting anomaly thresholds.</span>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-tag-container">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">TranAD</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <a href="https://github.com/DharaneshwarKarthik/Satellite-Telemetry-Anomaly-Detection" target="_blank" rel="noopener" class="project-git-btn" id="link-proj-telemetry">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                            <span>Repository</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 (CV / DL) -->
+                <div class="project-card animate-card" data-category="cv">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <span class="project-badge">Deep Learning</span>
+                        <span class="project-date">2025</span>
+                    </div>
+                    <h3 class="project-title">Face-Guardian: Facial Security Hub</h3>
+                    <p class="project-desc">
+                        A real-time facial recognition and smart surveillance system designed to identify authorized personnel and immediately log and alert on unauthorized intrusions. Optimized for edge deployment with lightweight detection backbones.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <span class="hl-value">Real-time</span>
+                            <span class="hl-label">FPS Performance</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="hl-value">OpenCV</span>
+                            <span class="hl-label">Frame Processing</span>
+                        </div>
+                    </div>
+                    <div class="project-details-list">
+                        <span>• Encodes face landmarks and registers representations dynamically in a local storage database.</span>
+                        <span>• Implements Flask APIs to push instant capture notifications to monitoring dashboards.</span>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-tag-container">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Face-Recognition</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <a href="https://github.com/DharaneshwarKarthik/Face-Guardian" target="_blank" rel="noopener" class="project-git-btn" id="link-proj-face">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                            <span>Repository</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 (CV / DL) -->
+                <div class="project-card animate-card" data-category="cv">
+                    <div class="project-glow"></div>
+                    <div class="project-header">
+                        <span class="project-badge">Deep Learning</span>
+                        <span class="project-date">2026</span>
+                    </div>
+                    <h3 class="project-title">Autonomous Waste & Garbage Classifier</h3>
+                    <p class="project-desc">
+                        A Convolutional Neural Network (CNN) pipeline designed to classify municipal waste into recyclable, organic, and hazardous categories. Explores Transfer Learning with ResNet and MobileNet parameters for quick inference.
+                    </p>
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <span class="hl-value">94%+</span>
+                            <span class="hl-label">Accuracy Rate</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="hl-value">PyTorch</span>
+                            <span class="hl-label">Model Training</span>
+                        </div>
+                    </div>
+                    <div class="project-details-list">
+                        <span>• Implements image augmentations to counter environmental bias (lighting, perspective).</span>
+                        <span>• Evaluated performance metrics including confusion matrix and precision-recall graphs.</span>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-tag-container">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Transfer Learning</span>
+                            <span class="tech-tag">NumPy</span>
+                        </div>
+                        <a href="https://github.com/DharaneshwarKarthik/Garbage-Classification" target="_blank" rel="noopener" class="project-git-btn" id="link-proj-garbage">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                            <span>Repository</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI/ML Playground Section -->
+        <section id="playground" class="section-container scroll-fade">
+            <div class="section-header">
+                <span class="section-subtitle">Interactive ML Lab</span>
+                <h2 class="section-title">AI & ML Model Playground</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="playground-wrapper">
+                
+                <!-- Time-Series Anomaly Detection Simulator -->
+                <div class="playground-card animate-card">
+                    <div class="playground-badge">TranAD Time-Series Simulator</div>
+                    <h3 class="simulator-title">Satellite Telemetry Anomaly Detection</h3>
+                    <p class="simulator-desc">
+                        Simulate live 103-dimensional telemetry data from the GOCE satellite. Adjust the threshold parameters to see the POT algorithm flag anomaly patterns in real-time.
+                    </p>
+                    
+                    <div class="simulator-controls">
+                        <div class="slider-group">
+                            <div class="slider-label">
+                                <span>Detection Sensitivity (POT &sigma;)</span>
+                                <span id="val-sensitivity">2.5</span>
+                            </div>
+                            <input type="range" id="param-sensitivity" min="1.0" max="5.0" step="0.1" value="2.5" class="slider">
+                        </div>
+                        <div class="slider-group">
+                            <div class="slider-label">
+                                <span>Signal Noise Factor</span>
+                                <span id="val-noise">15%</span>
+                            </div>
+                            <input type="range" id="param-noise" min="0" max="50" step="5" value="15" class="slider">
+                        </div>
+                        <div class="checkbox-group">
+                            <label class="switch-container">
+                                <input type="checkbox" id="param-inject-anomaly">
+                                <span class="switch-slider"></span>
+                            </label>
+                            <span>Inject Thermal Sensor Fault (Spike Anomaly)</span>
+                        </div>
+                    </div>
+
+                    <!-- Live Visualizer Canvas -->
+                    <div class="chart-container">
+                        <canvas id="telemetry-chart"></canvas>
+                        <div id="anomaly-alert-banner" class="alert-banner">
+                            <span class="alert-pulse"></span>
+                            <span id="alert-banner-text">SYSTEM STATUS: NORMAL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Employee Attrition Survival Curve Predictor -->
+                <div class="playground-card animate-card">
+                    <div class="playground-badge">Survival Analytics Simulator</div>
+                    <h3 class="simulator-title">CoxPH / RSF Retention Predictor</h3>
+                    <p class="simulator-desc">
+                        Interact with the trained hybrid survival model. Adjust employee characteristics to predict their retention survival curve over a 10-year timeline.
+                    </p>
+
+                    <div class="simulator-controls">
+                        <div class="slider-group">
+                            <div class="slider-label">
+                                <span>Job Satisfaction (1-10)</span>
+                                <span id="val-satisfaction">8</span>
+                            </div>
+                            <input type="range" id="param-satisfaction" min="1" max="10" step="1" value="8" class="slider">
+                        </div>
+                        <div class="slider-group">
+                            <div class="slider-label">
+                                <span>Weekly Overtime Hours</span>
+                                <span id="val-overtime">2 hrs</span>
+                            </div>
+                            <input type="range" id="param-overtime" min="0" max="25" step="1" value="2" class="slider">
+                        </div>
+                        <div class="slider-group">
+                            <div class="slider-label">
+                                <span>Years in Current Role</span>
+                                <span id="val-years">3</span>
+                            </div>
+                            <input type="range" id="param-years" min="0" max="10" step="1" value="3" class="slider">
+                        </div>
+                    </div>
+
+                    <!-- Live Visualizer SVG -->
+                    <div class="chart-container flex-center">
+                        <svg id="survival-chart" viewBox="0 0 400 200" class="svg-chart">
+                            <defs>
+                                <linearGradient id="curve-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#06b6d4" />
+                                    <stop offset="100%" stop-color="#6366f1" />
+                                </linearGradient>
+                            </defs>
+                            
+                            <!-- Grid Lines -->
+                            <line x1="40" y1="20" x2="40" y2="170" stroke="#1e293b" stroke-width="1" />
+                            <line x1="40" y1="170" x2="380" y2="170" stroke="#1e293b" stroke-width="1" />
+                            
+                            <!-- X & Y Labels -->
+                            <text x="30" y="25" fill="#64748b" font-size="8" text-anchor="end">S(t)=1.0</text>
+                            <text x="30" y="95" fill="#64748b" font-size="8" text-anchor="end">0.5</text>
+                            <text x="30" y="170" fill="#64748b" font-size="8" text-anchor="end">0.0</text>
+                            
+                            <text x="40" y="185" fill="#64748b" font-size="8" text-anchor="middle">0 yrs</text>
+                            <text x="210" y="185" fill="#64748b" font-size="8" text-anchor="middle">5 yrs</text>
+                            <text x="380" y="185" fill="#64748b" font-size="8" text-anchor="middle">10 yrs</text>
+                            
+                            <!-- Dynamic Retention Curve Path -->
+                            <path id="survival-curve-path" d="" fill="none" stroke="url(#curve-gradient)" stroke-width="3" />
+                        </svg>
+                        
+                        <div class="retention-score-widget">
+                            <span class="score-label">Projected 10-Yr Retention Rate</span>
+                            <span id="retention-score-value" class="score-value">85.4%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Tech Skills Section -->
+        <section id="skills" class="section-container scroll-fade">
+            <div class="section-header">
+                <span class="section-subtitle">Proficiencies</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="skills-wrapper">
+                <!-- Skill Category 1 -->
+                <div class="skills-card">
+                    <div class="skills-card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-2"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skills-card">
+                    <div class="skills-card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cpu"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M9 1v3"/><path d="M15 1v3"/><path d="M9 20v3"/><path d="M15 20v3"/><path d="M20 9h3"/><path d="M20 15h3"/><path d="M1 9h3"/><path d="M1 15h3"/></svg>
+                        <h3>Frameworks & Libraries</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">Keras</span>
+                        <span class="skill-item">Scikit-Learn</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">OpenCV</span>
+                        <span class="skill-item">Matplotlib</span>
+                        <span class="skill-item">Seaborn</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skills-card">
+                    <div class="skills-card-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                        <h3>Tools & Core Domains</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-item">Machine Learning</span>
+                        <span class="skill-item">Deep Learning</span>
+                        <span class="skill-item">Transformers</span>
+                        <span class="skill-item">Computer Vision</span>
+                        <span class="skill-item">AWS Cloud Quest</span>
+                        <span class="skill-item">Git & GitHub</span>
+                        <span class="skill-item">Jupyter Notebook</span>
+                        <span class="skill-item">Google Colab</span>
+                        <span class="skill-item">VS Code</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Credentials / Certifications Subgrid -->
+            <div class="certifications-container">
+                <h3 class="certs-subtitle">Professional Certifications</h3>
+                <div class="certs-grid">
+                    <a href="#" target="_blank" rel="noopener" class="cert-item-card">
+                        <!-- AWS Orange/Smile Logo -->
+                        <div class="cert-logo-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cert-logo aws-logo"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <div>
+                            <h4>AWS Cloud Quest</h4>
+                            <p>Amazon Web Services Credentials</p>
+                        </div>
+                        <div class="cert-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" class="cert-item-card">
+                        <!-- SWAYAM / Educational Book Emblem -->
+                        <div class="cert-logo-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cert-logo swayam-logo"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Data Analytics using Excel</h4>
+                            <p>SWAYAM (360DigiTMG)</p>
+                        </div>
+                        <div class="cert-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" class="cert-item-card">
+                        <!-- Tata Blue Circular Arch Logo -->
+                        <div class="cert-logo-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cert-logo tata-logo"><circle cx="12" cy="12" r="10"/><path d="M8 12c2-3 4-3 6 0"/></svg>
+                        </div>
+                        <div>
+                            <h4>Data Visualization</h4>
+                            <p>Tata Forage Certification</p>
+                        </div>
+                        <div class="cert-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" class="cert-item-card">
+                        <!-- Deloitte Dot Logo representation -->
+                        <div class="cert-logo-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cert-logo deloitte-logo"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="17" cy="17" r="1.5" fill="#86efac" stroke="#86efac"/></svg>
+                        </div>
+                        <div>
+                            <h4>Data Analytics</h4>
+                            <p>Deloitte Forage Certification</p>
+                        </div>
+                        <div class="cert-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" class="cert-item-card">
+                        <!-- Infosys Springboard Logo -->
+                        <div class="cert-logo-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cert-logo infosys-logo"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Business Intelligence</h4>
+                            <p>Infosys Springboard</p>
+                        </div>
+                        <div class="cert-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-container scroll-fade">
+            <div class="section-header">
+                <span class="section-subtitle">Academic Credentials</span>
+                <h2 class="section-title">Education</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="education-grid">
+                <!-- M.Tech Card -->
+                <div class="education-card active-card">
+                    <div class="edu-header">
+                        <span class="edu-period">Jul 2026 - May 2028 (Expected)</span>
+                        <span class="edu-type">M.Tech (Postgrad)</span>
+                    </div>
+                    <h3 class="edu-degree">M.Tech in Artificial Intelligence Engineering</h3>
+                    <h4 class="edu-institution">Amrita Vishwa Vidyapeetham, Coimbatore</h4>
+                    
+                    <div class="edu-coursework">
+                        <h5>Relevant Graduate Coursework:</h5>
+                        <div class="course-tags">
+                            <span>Object Oriented Programming</span>
+                            <span>Databases</span>
+                            <span>Discrete Mathematics</span>
+                            <span>Data Structures and Algorithms</span>
+                            <span>Operating Systems</span>
+                            <span>Computer Networks</span>
+                            <span>Machine Learning</span>
+                            <span>Data Mining</span>
+                            <span>Advance DSA</span>
+                            <span>Information Retrieval</span>
+                            <span>Image Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- B.Tech Card -->
+                <div class="education-card">
+                    <div class="edu-header">
+                        <span class="edu-period">Sep 2022 – Apr 2026</span>
+                        <span class="edu-grade">CGPA: 7.72 / 10</span>
+                    </div>
+                    <h3 class="edu-degree">B.Tech in Artificial Intelligence and Data Science</h3>
+                    <h4 class="edu-institution">Saranathan College of Engineering, Trichy</h4>
+                    
+                    <div class="edu-coursework">
+                        <h5>Core Coursework & Foundations:</h5>
+                        <div class="course-tags">
+                            <span>Data Structures and Algorithms</span>
+                            <span>Object-Oriented Programming</span>
+                            <span>Database Management Systems</span>
+                            <span>Operating Systems</span>
+                            <span>Computer Networks</span>
+                            <span>Artificial Intelligence</span>
+                            <span>Machine Learning</span>
+                            <span>Deep Learning</span>
+                            <span>Data Mining</span>
+                            <span>Data Analytics</span>
+                            <span>Natural Language Processing</span>
+                            <span>Computer Vision</span>
+                            <span>Software Engineering</span>
+                            <span>Cloud Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-container scroll-fade">
+            <div class="section-header">
+                <span class="section-subtitle">Reach Out</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info-panel">
+                    <h3>Contact Information</h3>
+                    <p>Have an open ML Research position, a software engineering opportunity at a top-tier firm, or want to discuss AI research? Let's connect.</p>
+                    
+                    <div class="contact-details-grid">
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            </div>
+                            <div>
+                                <span>Email Me</span>
+                                <strong>dharaneshwar.pchi@gmail.com</strong>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <span>Call Direct</span>
+                                <strong>+91 7092274118</strong>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="detail-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <span>Location Focus</span>
+                                <strong>India / Worldwide (Remote or Relocation)</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="copy-email-box">
+                        <button class="btn btn-secondary btn-full" id="btn-copy-email" onclick="copyEmailToClipboard()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                            <span>Copy Email Address</span>
+                        </button>
+                        <span class="copy-toast" id="copy-toast">Copied successfully!</span>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                        <!-- Replace YOUR_ACCESS_KEY_HERE with your Web3Forms key -->
+                        <input type="hidden" name="access_key" value="aa45e71b-2044-4fb3-a2b5-789bbbfad56c">
+                        
+                        <div class="form-group">
+                            <label for="form-name">Full Name</label>
+                            <input type="text" id="form-name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Email Address</label>
+                            <input type="email" id="form-email" name="email" required placeholder="john.doe@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" name="subject" required placeholder="ML Engineer Role / Collab">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" name="message" rows="5" required placeholder="Hi Dharaneshwar, I reviewed your portfolio..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="btn-send-message">
+                            <span>Send Secure Message</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send-horizontal"><path d="m3 3 3 9-3 9 19-9Z"/><path d="M6 12h16"/></svg>
+                        </button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <p class="footer-left">
+                &copy; 2026 Dharaneshwar K. All rights reserved. Custom-crafted for top-tier benchmarks.
+            </p>
+            <p class="footer-right">
+                Built with Vanilla HTML5, CSS3 & JS. Optimized for speed & SEO.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
